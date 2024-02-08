@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<stdlib.h>
 int main()
 {
 	int i;
@@ -15,6 +15,7 @@ int main()
 	{
 		printf("慢走，不送！\n");
 	} 
-	
-	return 0;
+
+        system("pause");
+        return 0;
 }
